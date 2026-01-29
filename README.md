@@ -48,10 +48,6 @@ The overall flow of the VirtualHQ Landing Page works as follows:
 6. **UI Updates:**  
    React dynamically updates the interface whenever components change or user actions occur.
 
-### Simplified Workflow Diagram
-
-index.html --> src/main.jsx --> src/App.jsx --> [Navbar, FeatureSection, Workflow, Pricing, Testimonials, Footer] --> src/constants/index.jsx (data)
-
 ## API documentation
 
 The provided codebase does not include any backend or API endpoints. The constants/index.jsx file currently holds all data, which would typically be fetched from an API in a full-fledged application.
