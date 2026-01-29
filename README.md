@@ -52,43 +52,6 @@ The overall flow of the VirtualHQ Landing Page works as follows:
 
 index.html --> src/main.jsx --> src/App.jsx --> [Navbar, FeatureSection, Workflow, Pricing, Testimonials, Footer] --> src/constants/index.jsx (data)
 
-## Project structure
-
-virtualr-main/
-├── public/
-│   └── vite.svg
-├── src/
-│   ├── App.jsx
-│   ├── assets/
-│   │   ├── hqmage.jpg
-│   │   ├── image_dark_background.png
-│   │   ├── logoo.png
-│   │   └── profile-pictures/
-│   │       ├── user1.jpg
-│   │       ├── user2.jpg
-│   │       ├── user3.jpg
-│   │       ├── user4.jpg
-│   │       ├── user5.jpg
-│   │       └── user6.jpg
-│   ├── components/
-│   │   ├── FeatureSection.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── Pricing.jsx
-│   │   ├── Testimonials.jsx
-│   │   └── Workflow.jsx
-│   ├── constants/
-│   │   └── index.jsx
-│   ├── index.css
-│   └── main.jsx
-├── .eslintrc.cjs
-├── .gitignore
-├── index.html
-├── package.json
-├── postcss.config.js
-└── tailwind.config.js
-└── vite.config.js
-
 ## API documentation
 
 The provided codebase does not include any backend or API endpoints. The constants/index.jsx file currently holds all data, which would typically be fetched from an API in a full-fledged application.
